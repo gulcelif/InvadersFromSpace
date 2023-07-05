@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    private const float maxX = -2.18f;
-    private const float minX = 2.18f;
+    private const float maxX = 2.18f;
+    private const float minX = -2.18f;
 
     private float speed = 3f;
     private bool isShooting;
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A) && transform.position.x > minX)
         {
-            transform.Translate(Vector2.left * Time.deltaTime * speed);
+            transform.Translate(speed * Time.deltaTime * Vector2.left);
         }
         if (Input.GetKey(KeyCode.D) && transform.position.x < maxX)
         {
