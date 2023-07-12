@@ -5,12 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    private const float maxX = 2.18f;
-    private const float minX = -2.18f;
+    private const float maxX = 2.5f;
+    private const float minX = -2.6f;
 
     private float speed = 3f;
     private bool isShooting;
     private float cooldown = 0.5f;
+    [SerializeField] private ObjectPool objectPool = null;
     void Start()
     {
 
@@ -40,7 +41,8 @@ public class PlayerController : MonoBehaviour
     private IEnumerator Shoot()
     {
         isShooting = true;
-        Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        GameObject obj = objectPool.GetPooledObjects();
+        obj.transform.position = gameObject.transform.position;
         yield return new WaitForSeconds(cooldown);
 
         isShooting = false;
