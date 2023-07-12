@@ -20,6 +20,12 @@ public class AlienMaster : MonoBehaviour
     private float ShootTimer = 3f;
     private const float shotTime = 3f;
 
+    public GameObject motherShipPrefab;
+    private Vector3 motherShipSpawnPos = new Vector3(3.72f, 3.45f, 0);
+    private float motherShipTimer = 60f;
+    private const float motherShip_Min = 15f;
+    private const float motherShip_Max = 60f;
+
     private const float max_move_speed = 0.02f;
     void Start()
     {
@@ -27,6 +33,11 @@ public class AlienMaster : MonoBehaviour
         {
             allAliens.Add(go);
         }
+    }
+    private void MotherShipSpawner()
+    {
+        Instantiate(motherShipPrefab, motherShipSpawnPos, Quaternion.identity);
+        motherShipTimer = Random.Range(motherShip_Min, motherShip_Max);
     }
     void Update()
     {
@@ -38,9 +49,13 @@ public class AlienMaster : MonoBehaviour
         {
             Shoot();
         }
+        if (motherShipTimer <= 0)
+        {
+            MotherShipSpawner();
+        }
         moveTimer -= Time.deltaTime;
         ShootTimer -= Time.deltaTime;
-
+        motherShipTimer -= Time.deltaTime;
 
     }
     private void MoveEnemies()

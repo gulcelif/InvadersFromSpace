@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7684914647349945476}
   - component: {fileID: 7684914647349945531}
   - component: {fileID: 7684914647349945477}
+  - component: {fileID: -48261510061810942}
   m_Layer: 0
   m_Name: MotherShip
   m_TagString: Untagged
@@ -111,3 +112,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.4332199}
   m_EdgeRadius: 0
+--- !u!114 &-48261510061810942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7684914647349945530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2550ea54dc0c4f14b131eabbc8db337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 500

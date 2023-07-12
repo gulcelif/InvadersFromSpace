@@ -1795,6 +1795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPool: {fileID: 1567057269}
   bulletPrefab: {fileID: 1567057266}
+  motherShipPrefab: {fileID: 7684914647349945530, guid: d83828f3b5f0845b5ab7b4cb1aee1451, type: 3}
 --- !u!114 &1567057269
 MonoBehaviour:
   m_ObjectHideFlags: 0
