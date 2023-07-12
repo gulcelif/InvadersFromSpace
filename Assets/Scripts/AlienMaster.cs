@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AlienMaster : MonoBehaviour
 {
+    [SerializeField] private ObjectPool objectPool = null;
     public GameObject bulletPrefab;
     private Vector3 hMoveDistance = new Vector3(0.05f, 0, 0);
     private Vector3 vMoveDistance = new Vector3(0, 0.15f, 0);
@@ -74,12 +75,17 @@ public class AlienMaster : MonoBehaviour
             moveTimer = GetMoveSpeed();
         }
     }
+
     private void Shoot()
     {
         Vector2 pos = allAliens[Random.Range(0, allAliens.Count)].transform.position;
-        Instantiate(bulletPrefab, pos, Quaternion.identity);
+        //Instantiate(bulletPrefab, pos, Quaternion.identity);
+        GameObject obj = objectPool.GetPooledObjects();
+        obj.transform.position = pos;
+
         ShootTimer = shotTime;
     }
+
     private float GetMoveSpeed()
     {
         float f = allAliens.Count * moveTime;

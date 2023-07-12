@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2155747586825369288}
   - component: {fileID: 2155747586825369335}
   - component: {fileID: 2155747586825369289}
-  - component: {fileID: -633898036702903819}
   - component: {fileID: -6787658977514949656}
+  - component: {fileID: 3165727545270738646}
   m_Layer: 0
   m_Name: FriendlyBullet
   m_TagString: Untagged
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.5625, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -113,19 +113,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.064053215, y: 0.37492263}
   m_EdgeRadius: 0
---- !u!114 &-633898036702903819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2155747586825369334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6d3cf1667a684f3f9b53445d8744ca4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seconds: 2
 --- !u!114 &-6787658977514949656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,3 +125,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f5ab8a0558324d70804239a9d2008b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3165727545270738646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155747586825369334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d181b512b443ad8562f34b5f7c18d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletDeactivatePos: 10
