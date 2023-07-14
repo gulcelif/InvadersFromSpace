@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7684914647349945531}
   - component: {fileID: 7684914647349945477}
   - component: {fileID: -48261510061810942}
+  - component: {fileID: 4245349191062585387}
   m_Layer: 0
   m_Name: MotherShip
   m_TagString: Untagged
@@ -125,3 +126,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValue: 500
+--- !u!114 &4245349191062585387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7684914647349945530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00bb6e781f4a473bb05e0bf7f418f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 500
+  explosion: {fileID: 5218631363260887691, guid: 0a10d01ba38e24f44936f8cf9b1b3416, type: 3}

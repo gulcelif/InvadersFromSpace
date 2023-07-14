@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Alien : MonoBehaviour
 {
+    public int scoreValue;
+    public GameObject explosion;
 
-    void Start()
+    public void Kill()
     {
-
+        AlienMaster.allAliens.Remove(gameObject);
+        Instantiate(explosion, transform.position, Quaternion.identity);
+        gameObject.SetActive(false);
     }
 
-
-    void Update()
-    {
-
-    }
 }
