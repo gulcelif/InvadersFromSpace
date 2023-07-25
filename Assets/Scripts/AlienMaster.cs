@@ -21,12 +21,12 @@ public class AlienMaster : MonoBehaviour
     private const float shotTime = 3f;
 
     public GameObject motherShipPrefab;
-    private Vector3 motherShipSpawnPos = new Vector3(3.72f, 4.5f, 0);
+    private Vector3 motherShipSpawnPos = new Vector3(3.72f, 3.2f, 0);
     private float motherShipTimer = 30f;
     private const float motherShip_Min = 15f;
-    private const float motherShip_Max = 60f;
+    private const float motherShip_Max = 50f;
 
-    private const float max_move_speed = 0.02f;
+    private const float max_move_speed = 0.01f;
     void Start()
     {
         foreach (GameObject go in GameObject.FindGameObjectsWithTag("Alien"))

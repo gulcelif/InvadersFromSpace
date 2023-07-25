@@ -15,13 +15,15 @@ public class PlayerController : MonoBehaviour
 
     public ShipStats shipStats;
     private Vector2 offscreenPos = new Vector2(0, -20f);
-    private Vector2 startPos = new Vector2(0, -4.5f);
+    private Vector2 startPos = new Vector2(0, -4.2f);
 
     void Start()
     {
         shipStats.currentHealth = shipStats.maxHealth;
         shipStats.currentLifes = shipStats.maxLifes;
         transform.position = startPos;
+        UIManager.UpdateHealthBar(shipStats.currentHealth);
+        UIManager.UpdateLives(shipStats.currentLifes);
     }
 
 
@@ -70,15 +72,18 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(2);
         shipStats.currentHealth = shipStats.maxHealth;
         transform.position = startPos;
+        UIManager.UpdateHealthBar(shipStats.currentHealth);
     }
 
     private void TakeDamage()
     {
         shipStats.currentHealth--;
+        UIManager.UpdateHealthBar(shipStats.currentHealth);
 
         if (shipStats.currentHealth <= 0)
         {
             shipStats.currentLifes--;
+            UIManager.UpdateLives(shipStats.currentLifes);
 
             if (shipStats.currentLifes <= 0)
             {
