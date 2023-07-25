@@ -8,14 +8,14 @@ public class PlayerController : MonoBehaviour
     private const float maxX = 2.5f;
     private const float minX = -2.6f;
 
-    //private float speed = 3f;
     private bool isShooting;
-    //private float cooldown = 0.5f;
     [SerializeField] private ObjectPool objectPool = null;
 
     public ShipStats shipStats;
     private Vector2 offscreenPos = new Vector2(0, -20f);
     private Vector2 startPos = new Vector2(0, -4.2f);
+
+    private float dirx;
 
     void Start()
     {
@@ -43,9 +43,25 @@ public class PlayerController : MonoBehaviour
         {
             StartCoroutine(Shoot());
         }
-
-
 #endif
+
+        dirx = Input.acceleration.x;
+        if (dirx >= -0.1f && transform.position.x > minX)
+        {
+            transform.Translate(Vector2.left * Time.deltaTime * shipStats.shipSpeed);
+        }
+        if (dirx >= 0.1f && transform.position.x < maxX)
+        {
+            transform.Translate(Vector2.right * Time.deltaTime * shipStats.shipSpeed);
+        }
+    }
+
+    public void ShootButton()
+    {
+        if (!isShooting)
+        {
+            StartCoroutine(Shoot());
+        }
     }
     private IEnumerator Shoot()
     {
