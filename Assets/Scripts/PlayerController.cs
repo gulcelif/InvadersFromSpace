@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 offscreenPos = new Vector2(0, -20f);
     private Vector2 startPos = new Vector2(0, -4.2f);
 
-    private float dirx;
+    //private float dirx;
 
     void Start()
     {
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         }
 #endif
 
-        dirx = Input.acceleration.x;
+        /*dirx = Input.acceleration.x;
         if (dirx >= -0.1f && transform.position.x > minX)
         {
             transform.Translate(Vector2.left * Time.deltaTime * shipStats.shipSpeed);
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
         if (dirx >= 0.1f && transform.position.x < maxX)
         {
             transform.Translate(Vector2.right * Time.deltaTime * shipStats.shipSpeed);
-        }
+        }*/
     }
 
     public void ShootButton()
@@ -61,6 +61,31 @@ public class PlayerController : MonoBehaviour
         if (!isShooting)
         {
             StartCoroutine(Shoot());
+        }
+    }
+
+    public void AddHealth()
+    {
+        if (shipStats.currentHealth == shipStats.maxHealth)
+        {
+            UIManager.UpdateScore(300);
+        }
+        else
+        {
+            UIManager.UpdateHealthBar(shipStats.currentHealth);
+        }
+    }
+
+    public void AddLive()
+    {
+        if (shipStats.currentLifes == shipStats.maxLifes)
+        {
+            UIManager.UpdateScore(1000);
+        }
+        else
+        {
+            shipStats.currentLifes++;
+            UIManager.UpdateLives(shipStats.currentLifes);
         }
     }
     private IEnumerator Shoot()
