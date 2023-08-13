@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4245349191062585387}
   m_Layer: 0
   m_Name: MotherShip
-  m_TagString: Untagged
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,5 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a00bb6e781f4a473bb05e0bf7f418f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: 500
+  scoreValue: 0
   explosion: {fileID: 5218631363260887691, guid: 0a10d01ba38e24f44936f8cf9b1b3416, type: 3}
+  coinPrefab: {fileID: 1829447262133726481, guid: e6ab76de038b242a98be0224e03e636d, type: 3}
+  lifePrefab: {fileID: 432890811398660599, guid: 86b37bcee95a44c18b6f457c9a9a6d18, type: 3}
+  healthPrefab: {fileID: 5165099638165989278, guid: 51749c694059b441b800a65425f5775a, type: 3}

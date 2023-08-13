@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5165099638165989251}
   - component: {fileID: 5165099638165989248}
   - component: {fileID: 5165099638165989249}
+  - component: {fileID: 7955022319139679976}
+  - component: {fileID: -1256511520144017504}
   m_Layer: 0
   m_Name: Health_Coin
   m_TagString: Untagged
@@ -155,3 +157,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.60643494, y: 0.7663209}
   m_EdgeRadius: 0
+--- !u!114 &7955022319139679976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165099638165989278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa2f55569b044385a23f085aa361697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallSpeed: 6
+--- !u!114 &-1256511520144017504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165099638165989278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9b2c31a01a984d89a3c4deaed4e5996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 5

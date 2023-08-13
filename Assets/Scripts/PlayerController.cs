@@ -88,6 +88,7 @@ public class PlayerController : MonoBehaviour
             UIManager.UpdateLives(shipStats.currentLifes);
         }
     }
+
     private IEnumerator Shoot()
     {
         isShooting = true;

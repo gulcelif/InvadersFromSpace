@@ -66,6 +66,6 @@ public class UIManager : MonoBehaviour
     }
     public static void UpdateCoins()
     {
-
+        instance.coinsText.text = Inventory.currentCoins.ToString();
     }
 }

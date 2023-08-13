@@ -104,6 +104,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -3307458809190092140, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
+      propertyPath: scoreValue
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 662205536915217248, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -166,6 +170,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: 2729342163378358383, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
+      propertyPath: scoreValue
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 5038608780695039240, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
       propertyPath: m_Name
       value: Alien_04
@@ -228,6 +236,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -3307458809190092140, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
+      propertyPath: scoreValue
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 662205536915217248, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -290,6 +302,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: 2729342163378358383, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
+      propertyPath: scoreValue
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 5038608780695039240, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
       propertyPath: m_Name
       value: Alien_04 (6)
@@ -400,6 +416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3284215908241043357, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
+      propertyPath: scoreValue
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
 --- !u!4 &1364015787582501967 stripped
@@ -414,6 +434,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -6657543398519493074, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
+      propertyPath: scoreValue
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6053971990882104080, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
       propertyPath: m_Name
       value: Alien_05
@@ -476,6 +500,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -3307458809190092140, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
+      propertyPath: scoreValue
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 662205536915217248, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -538,6 +566,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -4007867309389190110, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7118817778560984984, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
       propertyPath: m_Name
       value: Alien_01 (1)
@@ -600,6 +632,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -3307458809190092140, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
+      propertyPath: scoreValue
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 662205536915217248, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -662,6 +698,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -6657543398519493074, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
+      propertyPath: scoreValue
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6053971990882104080, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
       propertyPath: m_Name
       value: Alien_05 (3)
@@ -772,6 +812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3284215908241043357, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
+      propertyPath: scoreValue
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
 --- !u!4 &1364015788030978424 stripped
@@ -786,6 +830,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -6657543398519493074, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
+      propertyPath: scoreValue
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6053971990882104080, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
       propertyPath: m_Name
       value: Alien_05 (1)
@@ -848,6 +896,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: 2729342163378358383, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
+      propertyPath: scoreValue
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 5038608780695039240, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
       propertyPath: m_Name
       value: Alien_04 (3)
@@ -910,6 +962,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: 2729342163378358383, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
+      propertyPath: scoreValue
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 5038608780695039240, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
       propertyPath: m_Name
       value: Alien_04 (4)
@@ -972,6 +1028,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -4007867309389190110, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7118817778560984984, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
       propertyPath: m_Name
       value: Alien_01 (3)
@@ -1034,6 +1094,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -4007867309389190110, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7118817778560984984, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
       propertyPath: m_Name
       value: Alien_01 (6)
@@ -1144,6 +1208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3284215908241043357, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
+      propertyPath: scoreValue
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
 --- !u!4 &1364015788366049715 stripped
@@ -1205,6 +1273,10 @@ PrefabInstance:
     - target: {fileID: 1867062026177766159, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
       propertyPath: m_Name
       value: Alien_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3284215908241043357, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
+      propertyPath: scoreValue
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
@@ -1268,6 +1340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3284215908241043357, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
+      propertyPath: scoreValue
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
 --- !u!4 &1364015786540438440 stripped
@@ -1282,6 +1358,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -6657543398519493074, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
+      propertyPath: scoreValue
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6053971990882104080, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
       propertyPath: m_Name
       value: Alien_05 (2)
@@ -1344,6 +1424,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -3307458809190092140, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
+      propertyPath: scoreValue
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 662205536915217248, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1406,6 +1490,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -4007867309389190110, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7118817778560984984, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
       propertyPath: m_Name
       value: Alien_01 (4)
@@ -1468,6 +1556,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: 2729342163378358383, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
+      propertyPath: scoreValue
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 5038608780695039240, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
       propertyPath: m_Name
       value: Alien_04 (2)
@@ -1530,6 +1622,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: 2729342163378358383, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
+      propertyPath: scoreValue
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 5038608780695039240, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
       propertyPath: m_Name
       value: Alien_04 (1)
@@ -1592,6 +1688,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -6657543398519493074, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
+      propertyPath: scoreValue
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6053971990882104080, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
       propertyPath: m_Name
       value: Alien_05 (5)
@@ -1654,6 +1754,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -4007867309389190110, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7118817778560984984, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
       propertyPath: m_Name
       value: Alien_01 (5)
@@ -1716,6 +1820,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -3307458809190092140, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
+      propertyPath: scoreValue
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 662205536915217248, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1778,6 +1886,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -6657543398519493074, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
+      propertyPath: scoreValue
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6053971990882104080, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
       propertyPath: m_Name
       value: Alien_05 (4)
@@ -1840,6 +1952,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -4007867309389190110, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7118817778560984984, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
       propertyPath: m_Name
       value: Alien_01 (2)
@@ -1902,6 +2018,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -4007867309389190110, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7118817778560984984, guid: b202d54b346a0451596c456f1630e5bc, type: 3}
       propertyPath: m_Name
       value: Alien_01
@@ -1968,6 +2088,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: 2729342163378358383, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
+      propertyPath: scoreValue
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 5038608780695039240, guid: 68d093d9490b94b09a15d5f0b5479fe6, type: 3}
       propertyPath: m_Name
       value: Alien_04 (5)
@@ -2078,6 +2202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien_02
       objectReference: {fileID: 0}
+    - target: {fileID: 3284215908241043357, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
+      propertyPath: scoreValue
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
 --- !u!4 &1364015787351808183 stripped
@@ -2092,6 +2220,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -6657543398519493074, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
+      propertyPath: scoreValue
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6053971990882104080, guid: 25a279dc971ed44ceacf799edb8c0956, type: 3}
       propertyPath: m_Name
       value: Alien_05 (4)
@@ -2154,6 +2286,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 793994888091085558}
     m_Modifications:
+    - target: {fileID: -3307458809190092140, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
+      propertyPath: scoreValue
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 662205536915217248, guid: c92ef5184311a4e28953a71b2b9f8157, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2263,6 +2399,10 @@ PrefabInstance:
     - target: {fileID: 1867062026177766159, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
       propertyPath: m_Name
       value: Alien_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3284215908241043357, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
+      propertyPath: scoreValue
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db9632b2fb5a64155b9450ca6c9c1bea, type: 3}
